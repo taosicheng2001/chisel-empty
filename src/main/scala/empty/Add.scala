@@ -1,7 +1,7 @@
 /*
  * Dummy file to start a Chisel project.
  *
- * Author: Martin Schoeberl (martin@jopdesign.com)
+ * Author: Sora
  * 
  */
 
