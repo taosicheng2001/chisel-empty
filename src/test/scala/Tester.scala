@@ -5,15 +5,12 @@
  * 
  */
 
-package empty
-
 import chisel3._
 import chiseltest._
 import org.scalatest.flatspec.AnyFlatSpec
 
 class Tester extends AnyFlatSpec with ChiselScalatestTester {
-
-  "dut" should "work" in {
+  "CNT" should "pass" in {
     test(new Counter).withAnnotations(Seq(WriteVcdAnnotation)) { dut =>
       for(a <- 0 until 10)
         dut.clock.step()
